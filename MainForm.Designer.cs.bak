@@ -1,0 +1,735 @@
+﻿namespace Trgovina
+{
+    partial class MainForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.Remove = new System.Windows.Forms.Button();
+            this.Add = new System.Windows.Forms.Button();
+            this.listView2 = new System.Windows.Forms.ListView();
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.Dodaj2 = new System.Windows.Forms.Button();
+            this.tabPageArtikli = new System.Windows.Forms.TabPage();
+            this.tabPageRacun = new System.Windows.Forms.TabPage();
+            this.label5 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.kreiraj = new System.Windows.Forms.Button();
+            this.listView3 = new System.Windows.Forms.ListView();
+            this.Trazi = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tabPanel = new System.Windows.Forms.TabControl();
+            this.tabPageKorisnici = new System.Windows.Forms.TabPage();
+            this.buttonAddNewUser = new System.Windows.Forms.Button();
+            this.userList = new System.Windows.Forms.DataGridView();
+            this.comboBoxUserStatus = new System.Windows.Forms.ComboBox();
+            this.comboBoxUserRole = new System.Windows.Forms.ComboBox();
+            this.tabPageRacuniPregled = new System.Windows.Forms.TabPage();
+            this.PrikaziIzabranRacun = new System.Windows.Forms.Button();
+            this.listView5 = new System.Windows.Forms.ListView();
+            this.Vrijeme = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ID = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Korisnik = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Odaberi = new System.Windows.Forms.Button();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.listView4 = new System.Windows.Forms.ListView();
+            this.Artikal = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Porez = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Popust = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Cijena = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Količina = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Ukupno = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.tabPageStatistika = new System.Windows.Forms.TabPage();
+            this.tabPageMyProfile = new System.Windows.Forms.TabPage();
+            this.buttonMyProfileEdit = new System.Windows.Forms.Button();
+            this.buttonChangePassword = new System.Windows.Forms.Button();
+            this.labelMyFrofileRole = new System.Windows.Forms.Label();
+            this.labelMyFrofileUsername = new System.Windows.Forms.Label();
+            this.labelMyFrofileLastName = new System.Windows.Forms.Label();
+            this.labelMyFrofileName = new System.Windows.Forms.Label();
+            this.labelMyFrofileRoleLabel = new System.Windows.Forms.Label();
+            this.labelMyFrofileUsernameLabel = new System.Windows.Forms.Label();
+            this.labelMyFrofileLastNameLabel = new System.Windows.Forms.Label();
+            this.labelMyFrofileNameLabel = new System.Windows.Forms.Label();
+            this.buttonLogout = new System.Windows.Forms.Button();
+            this.eventLog1 = new System.Diagnostics.EventLog();
+            this.tabPageRacun.SuspendLayout();
+            this.tabPanel.SuspendLayout();
+            this.tabPageKorisnici.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.userList)).BeginInit();
+            this.tabPageMyProfile.SuspendLayout();
+            this.tabPageRacuniPregled.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // Remove
+            // 
+            this.Remove.Location = new System.Drawing.Point(603, 265);
+            this.Remove.Name = "Remove";
+            this.Remove.Size = new System.Drawing.Size(75, 23);
+            this.Remove.TabIndex = 3;
+            this.Remove.Text = "Remove";
+            this.Remove.UseVisualStyleBackColor = true;
+            this.Remove.Click += new System.EventHandler(this.Remove_Click);
+            // 
+            // Add
+            // 
+            this.Add.Location = new System.Drawing.Point(82, 266);
+            this.Add.Name = "Add";
+            this.Add.Size = new System.Drawing.Size(75, 23);
+            this.Add.TabIndex = 2;
+            this.Add.Text = "Add";
+            this.Add.UseVisualStyleBackColor = true;
+            this.Add.Click += new System.EventHandler(this.Add_Click);
+            // 
+            // listView2
+            // 
+            this.listView2.FullRowSelect = true;
+            this.listView2.GridLines = true;
+            this.listView2.Location = new System.Drawing.Point(603, 91);
+            this.listView2.Name = "listView2";
+            this.listView2.Size = new System.Drawing.Size(345, 168);
+            this.listView2.TabIndex = 1;
+            this.listView2.UseCompatibleStateImageBehavior = false;
+            this.listView2.View = System.Windows.Forms.View.Details;
+            // 
+            // listView1
+            // 
+            this.listView1.FullRowSelect = true;
+            this.listView1.GridLines = true;
+            this.listView1.HideSelection = false;
+            this.listView1.LabelEdit = true;
+            this.listView1.Location = new System.Drawing.Point(82, 91);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(486, 168);
+            this.listView1.TabIndex = 0;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.View = System.Windows.Forms.View.Details;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(603, 72);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(48, 13);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Košarica";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(79, 72);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(49, 13);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Trgovina";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(82, 323);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 6;
+            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(80, 307);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(55, 13);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Unesi kod";
+            // 
+            // Dodaj2
+            // 
+            this.Dodaj2.Location = new System.Drawing.Point(82, 349);
+            this.Dodaj2.Name = "Dodaj2";
+            this.Dodaj2.Size = new System.Drawing.Size(75, 23);
+            this.Dodaj2.TabIndex = 8;
+            this.Dodaj2.Text = "Dodaj";
+            this.Dodaj2.UseVisualStyleBackColor = true;
+            this.Dodaj2.Click += new System.EventHandler(this.Dodaj2_Click);
+            // 
+            // tabPageArtikli
+            // 
+            this.tabPageArtikli.Location = new System.Drawing.Point(4, 22);
+            this.tabPageArtikli.Name = "tabPageArtikli";
+            this.tabPageArtikli.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageArtikli.Size = new System.Drawing.Size(1183, 707);
+            this.tabPageArtikli.TabIndex = 1;
+            this.tabPageArtikli.Text = "Artikli";
+            this.tabPageArtikli.UseVisualStyleBackColor = true;
+            // 
+            // tabPageRacun
+            // 
+            this.tabPageRacun.Controls.Add(this.label5);
+            this.tabPageRacun.Controls.Add(this.comboBox1);
+            this.tabPageRacun.Controls.Add(this.kreiraj);
+            this.tabPageRacun.Controls.Add(this.listView3);
+            this.tabPageRacun.Controls.Add(this.Trazi);
+            this.tabPageRacun.Controls.Add(this.label4);
+            this.tabPageRacun.Controls.Add(this.textBox2);
+            this.tabPageRacun.Controls.Add(this.Dodaj2);
+            this.tabPageRacun.Controls.Add(this.label3);
+            this.tabPageRacun.Controls.Add(this.textBox1);
+            this.tabPageRacun.Controls.Add(this.label2);
+            this.tabPageRacun.Controls.Add(this.label1);
+            this.tabPageRacun.Controls.Add(this.Remove);
+            this.tabPageRacun.Controls.Add(this.Add);
+            this.tabPageRacun.Controls.Add(this.listView2);
+            this.tabPageRacun.Controls.Add(this.listView1);
+            this.tabPageRacun.Location = new System.Drawing.Point(4, 22);
+            this.tabPageRacun.Name = "tabPageRacun";
+            this.tabPageRacun.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageRacun.Size = new System.Drawing.Size(872, 449);
+            this.tabPageRacun.TabIndex = 0;
+            this.tabPageRacun.Text = "Kreiranje računa";
+            this.tabPageRacun.UseVisualStyleBackColor = true;
+            // 
+            // Trazi
+            // 
+            this.Trazi.Location = new System.Drawing.Point(82, 421);
+            this.Trazi.Name = "Trazi";
+            this.Trazi.Size = new System.Drawing.Size(75, 23);
+            this.Trazi.TabIndex = 13;
+            this.Trazi.Text = "Traži";
+            this.Trazi.UseVisualStyleBackColor = true;
+            this.Trazi.Click += new System.EventHandler(this.Trazi_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(80, 379);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(48, 13);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "Proizvod";
+            // 
+            // textBox2
+            // 
+            this.textBox2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.textBox2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
+            this.textBox2.Location = new System.Drawing.Point(82, 395);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.TabIndex = 9;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
+            // tabPanel
+            // 
+            this.tabPanel.Controls.Add(this.tabPageRacun);
+            this.tabPanel.Controls.Add(this.tabPageArtikli);
+            this.tabPanel.Controls.Add(this.tabPageKorisnici);
+            this.tabPanel.Controls.Add(this.tabPageRacuniPregled);
+            this.tabPanel.Controls.Add(this.tabPageStatistika);
+            this.tabPanel.Controls.Add(this.tabPageMyProfile);
+            this.tabPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabPanel.ItemSize = new System.Drawing.Size(120, 36);
+            this.tabPanel.Location = new System.Drawing.Point(0, 0);
+            this.tabPanel.Margin = new System.Windows.Forms.Padding(0);
+            this.tabPanel.Multiline = true;
+            this.tabPanel.Name = "tabPanel";
+            this.tabPanel.SelectedIndex = 0;
+            this.tabPanel.Size = new System.Drawing.Size(880, 493);
+            this.tabPanel.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            this.tabPanel.TabIndex = 3;
+            this.tabPanel.SelectedIndexChanged += new System.EventHandler(this.tabPanel_SelectedIndexChanged);
+            // 
+            // tabPageKorisnici
+            // 
+            this.tabPageKorisnici.Controls.Add(this.buttonAddNewUser);
+            this.tabPageKorisnici.Controls.Add(this.userList);
+            this.tabPageKorisnici.Controls.Add(this.comboBoxUserStatus);
+            this.tabPageKorisnici.Controls.Add(this.comboBoxUserRole);
+            this.tabPageKorisnici.Location = new System.Drawing.Point(4, 40);
+            this.tabPageKorisnici.Name = "tabPageKorisnici";
+            this.tabPageKorisnici.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageKorisnici.Size = new System.Drawing.Size(872, 449);
+            this.tabPageKorisnici.TabIndex = 2;
+            this.tabPageKorisnici.Text = "Korisnici";
+            this.tabPageKorisnici.UseVisualStyleBackColor = true;
+            // 
+            // buttonAddNewUser
+            // 
+            this.buttonAddNewUser.Location = new System.Drawing.Point(701, 125);
+            this.buttonAddNewUser.Name = "buttonAddNewUser";
+            this.buttonAddNewUser.Size = new System.Drawing.Size(113, 48);
+            this.buttonAddNewUser.TabIndex = 3;
+            this.buttonAddNewUser.Text = "Novi korisnik";
+            this.buttonAddNewUser.UseVisualStyleBackColor = true;
+            this.buttonAddNewUser.Click += new System.EventHandler(this.buttonAddNewUser_Click);
+            // 
+            // userList
+            // 
+            this.userList.AllowUserToAddRows = false;
+            this.userList.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.Lavender;
+            this.userList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+            this.userList.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.userList.BackgroundColor = System.Drawing.Color.White;
+            this.userList.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.userList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            this.userList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.userList.DefaultCellStyle = dataGridViewCellStyle9;
+            this.userList.GridColor = System.Drawing.SystemColors.ButtonFace;
+            this.userList.Location = new System.Drawing.Point(50, 125);
+            this.userList.MultiSelect = false;
+            this.userList.Name = "userList";
+            this.userList.ReadOnly = true;
+            this.userList.RowHeadersVisible = false;
+            this.userList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.userList.Size = new System.Drawing.Size(645, 259);
+            this.userList.TabIndex = 2;
+            this.userList.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.userList_CellDoubleClick);
+            // 
+            // comboBoxUserStatus
+            // 
+            this.comboBoxUserStatus.FormattingEnabled = true;
+            this.comboBoxUserStatus.Items.AddRange(new object[] {
+            "Svi",
+            "Aktivni",
+            "Neaktivni"});
+            this.comboBoxUserStatus.Location = new System.Drawing.Point(273, 63);
+            this.comboBoxUserStatus.Name = "comboBoxUserStatus";
+            this.comboBoxUserStatus.Size = new System.Drawing.Size(166, 21);
+            this.comboBoxUserStatus.TabIndex = 1;
+            this.comboBoxUserStatus.SelectedIndexChanged += new System.EventHandler(this.comboBoxUserStatus_SelectedIndexChanged);
+            // 
+            // comboBoxUserRole
+            // 
+            this.comboBoxUserRole.FormattingEnabled = true;
+            this.comboBoxUserRole.Items.AddRange(new object[] {
+            "Sve"});
+            this.comboBoxUserRole.Location = new System.Drawing.Point(50, 63);
+            this.comboBoxUserRole.Name = "comboBoxUserRole";
+            this.comboBoxUserRole.Size = new System.Drawing.Size(166, 21);
+            this.comboBoxUserRole.TabIndex = 0;
+            this.comboBoxUserRole.SelectedIndexChanged += new System.EventHandler(this.comboBoxUserRole_SelectedIndexChanged);
+            // 
+            // tabPageRacuniPregled
+            // 
+            this.tabPageRacuniPregled.Controls.Add(this.PrikaziIzabranRacun);
+            this.tabPageRacuniPregled.Controls.Add(this.listView5);
+            this.tabPageRacuniPregled.Controls.Add(this.Odaberi);
+            this.tabPageRacuniPregled.Controls.Add(this.dateTimePicker1);
+            this.tabPageRacuniPregled.Controls.Add(this.groupBox1);
+            this.tabPageRacuniPregled.Location = new System.Drawing.Point(4, 22);
+            this.tabPageRacuniPregled.Name = "tabPageRacuniPregled";
+            this.tabPageRacuniPregled.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageRacuniPregled.Size = new System.Drawing.Size(1183, 707);
+            this.tabPageRacuniPregled.TabIndex = 3;
+            this.tabPageRacuniPregled.Text = "Računi";
+            this.tabPageRacuniPregled.UseVisualStyleBackColor = true;
+            // 
+            // PrikaziIzabranRacun
+            // 
+            this.PrikaziIzabranRacun.Location = new System.Drawing.Point(539, 337);
+            this.PrikaziIzabranRacun.Name = "PrikaziIzabranRacun";
+            this.PrikaziIzabranRacun.Size = new System.Drawing.Size(93, 23);
+            this.PrikaziIzabranRacun.TabIndex = 6;
+            this.PrikaziIzabranRacun.Text = "Prikaži račun";
+            this.PrikaziIzabranRacun.UseVisualStyleBackColor = true;
+            this.PrikaziIzabranRacun.Click += new System.EventHandler(this.PrikaziIzabranRacun_Click);
+            // 
+            // listView5
+            // 
+            this.listView5.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.Vrijeme,
+            this.ID,
+            this.Korisnik});
+            this.listView5.FullRowSelect = true;
+            this.listView5.GridLines = true;
+            this.listView5.HideSelection = false;
+            this.listView5.LabelEdit = true;
+            this.listView5.Location = new System.Drawing.Point(539, 89);
+            this.listView5.Name = "listView5";
+            this.listView5.Size = new System.Drawing.Size(200, 230);
+            this.listView5.TabIndex = 5;
+            this.listView5.UseCompatibleStateImageBehavior = false;
+            this.listView5.View = System.Windows.Forms.View.Details;
+            // 
+            // Vrijeme
+            // 
+            this.Vrijeme.Text = "Vrijeme";
+            this.Vrijeme.Width = 80;
+            // 
+            // ID
+            // 
+            this.ID.Text = "ID";
+            this.ID.Width = 50;
+            // 
+            // Korisnik
+            // 
+            this.Korisnik.Text = "Korisnik";
+            this.Korisnik.Width = 50;
+            // 
+            // Odaberi
+            // 
+            this.Odaberi.Location = new System.Drawing.Point(745, 47);
+            this.Odaberi.Name = "Odaberi";
+            this.Odaberi.Size = new System.Drawing.Size(75, 23);
+            this.Odaberi.TabIndex = 4;
+            this.Odaberi.Text = "Odaberi";
+            this.Odaberi.UseVisualStyleBackColor = true;
+            this.Odaberi.Click += new System.EventHandler(this.Odaberi_Click);
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(539, 47);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker1.TabIndex = 3;
+            this.dateTimePicker1.Value = new System.DateTime(2018, 2, 6, 12, 23, 47, 0);
+            // 
+            // groupBox1
+            // 
+            //this.groupBox1.Controls.Add(this.label9);
+            //this.groupBox1.Controls.Add(this.label8);
+            //this.groupBox1.Controls.Add(this.label7);
+//            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.listView4);
+            this.groupBox1.Location = new System.Drawing.Point(46, 38);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(455, 607);
+            this.groupBox1.TabIndex = 2;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Račun";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label9.Location = new System.Drawing.Point(190, 554);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(0, 26);
+            this.label9.TabIndex = 5;
+            // 
+            // listView4
+            // 
+            this.listView4.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.Artikal,
+            this.Porez,
+            this.Popust,
+            this.Cijena,
+            this.Količina,
+            this.Ukupno});
+            this.listView4.FullRowSelect = true;
+            this.listView4.GridLines = true;
+            this.listView4.HideSelection = false;
+            this.listView4.LabelEdit = true;
+            this.listView4.Location = new System.Drawing.Point(24, 39);
+            this.listView4.Name = "listView4";
+            this.listView4.Size = new System.Drawing.Size(369, 436);
+            this.listView4.TabIndex = 1;
+            this.listView4.UseCompatibleStateImageBehavior = false;
+            this.listView4.View = System.Windows.Forms.View.Details;
+            // 
+            // Artikal
+            // 
+            this.Artikal.Text = "Artikal";
+            this.Artikal.Width = 80;
+            // 
+            // Porez
+            // 
+            this.Porez.DisplayIndex = 2;
+            this.Porez.Text = "Porez";
+            this.Porez.Width = 50;
+            // 
+            // Popust
+            // 
+            this.Popust.DisplayIndex = 1;
+            this.Popust.Text = "Popust";
+            this.Popust.Width = 50;
+            // 
+            // Cijena
+            // 
+            this.Cijena.Text = "Cijena";
+            // 
+            // Količina
+            // 
+            this.Količina.Text = "Količina";
+            // 
+            // Ukupno
+            // 
+            this.Ukupno.Text = "Ukupno";
+            // 
+            // tabPageStatistika
+            // 
+            this.tabPageStatistika.Location = new System.Drawing.Point(4, 40);
+            this.tabPageStatistika.Name = "tabPageStatistika";
+            this.tabPageStatistika.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageStatistika.Size = new System.Drawing.Size(872, 449);
+            this.tabPageStatistika.TabIndex = 4;
+            this.tabPageStatistika.Text = "Statistika";
+            this.tabPageStatistika.UseVisualStyleBackColor = true;
+            // 
+            // tabPageMyProfile
+            // 
+            this.tabPageMyProfile.Controls.Add(this.buttonLogout);
+            this.tabPageMyProfile.Controls.Add(this.buttonMyProfileEdit);
+            this.tabPageMyProfile.Controls.Add(this.buttonChangePassword);
+            this.tabPageMyProfile.Controls.Add(this.labelMyFrofileRole);
+            this.tabPageMyProfile.Controls.Add(this.labelMyFrofileUsername);
+            this.tabPageMyProfile.Controls.Add(this.labelMyFrofileLastName);
+            this.tabPageMyProfile.Controls.Add(this.labelMyFrofileName);
+            this.tabPageMyProfile.Controls.Add(this.labelMyFrofileRoleLabel);
+            this.tabPageMyProfile.Controls.Add(this.labelMyFrofileUsernameLabel);
+            this.tabPageMyProfile.Controls.Add(this.labelMyFrofileLastNameLabel);
+            this.tabPageMyProfile.Controls.Add(this.labelMyFrofileNameLabel);
+            this.tabPageMyProfile.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.tabPageMyProfile.Location = new System.Drawing.Point(4, 40);
+            this.tabPageMyProfile.Name = "tabPageMyProfile";
+            this.tabPageMyProfile.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageMyProfile.Size = new System.Drawing.Size(872, 449);
+            this.tabPageMyProfile.TabIndex = 5;
+            this.tabPageMyProfile.Text = "Moj Profil";
+            this.tabPageMyProfile.UseVisualStyleBackColor = true;
+            // 
+            // buttonMyProfileEdit
+            // 
+            this.buttonMyProfileEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.buttonMyProfileEdit.Location = new System.Drawing.Point(198, 350);
+            this.buttonMyProfileEdit.Name = "buttonMyProfileEdit";
+            this.buttonMyProfileEdit.Size = new System.Drawing.Size(117, 41);
+            this.buttonMyProfileEdit.TabIndex = 9;
+            this.buttonMyProfileEdit.Text = "Uredi";
+            this.buttonMyProfileEdit.UseVisualStyleBackColor = true;
+            this.buttonMyProfileEdit.Click += new System.EventHandler(this.buttonMyProfileEdit_Click);
+            // 
+            // buttonChangePassword
+            // 
+            this.buttonChangePassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.buttonChangePassword.Location = new System.Drawing.Point(44, 350);
+            this.buttonChangePassword.Name = "buttonChangePassword";
+            this.buttonChangePassword.Size = new System.Drawing.Size(125, 41);
+            this.buttonChangePassword.TabIndex = 8;
+            this.buttonChangePassword.Text = "Promjeni lozinku";
+            this.buttonChangePassword.UseVisualStyleBackColor = true;
+            this.buttonChangePassword.Click += new System.EventHandler(this.buttonChangePassword_Click);
+            // 
+            // labelMyFrofileRole
+            // 
+            this.labelMyFrofileRole.AutoSize = true;
+            this.labelMyFrofileRole.Location = new System.Drawing.Point(227, 272);
+            this.labelMyFrofileRole.Name = "labelMyFrofileRole";
+            this.labelMyFrofileRole.Size = new System.Drawing.Size(0, 20);
+            this.labelMyFrofileRole.TabIndex = 7;
+            // 
+            // labelMyFrofileUsername
+            // 
+            this.labelMyFrofileUsername.AutoSize = true;
+            this.labelMyFrofileUsername.Location = new System.Drawing.Point(227, 213);
+            this.labelMyFrofileUsername.Name = "labelMyFrofileUsername";
+            this.labelMyFrofileUsername.Size = new System.Drawing.Size(0, 20);
+            this.labelMyFrofileUsername.TabIndex = 6;
+            // 
+            // labelMyFrofileLastName
+            // 
+            this.labelMyFrofileLastName.AutoSize = true;
+            this.labelMyFrofileLastName.Location = new System.Drawing.Point(227, 157);
+            this.labelMyFrofileLastName.Name = "labelMyFrofileLastName";
+            this.labelMyFrofileLastName.Size = new System.Drawing.Size(0, 20);
+            this.labelMyFrofileLastName.TabIndex = 5;
+            // 
+            // labelMyFrofileName
+            // 
+            this.labelMyFrofileName.AutoSize = true;
+            this.labelMyFrofileName.Location = new System.Drawing.Point(227, 98);
+            this.labelMyFrofileName.Name = "labelMyFrofileName";
+            this.labelMyFrofileName.Size = new System.Drawing.Size(0, 20);
+            this.labelMyFrofileName.TabIndex = 4;
+            // 
+            // labelMyFrofileRoleLabel
+            // 
+            this.labelMyFrofileRoleLabel.AutoSize = true;
+            this.labelMyFrofileRoleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.labelMyFrofileRoleLabel.Location = new System.Drawing.Point(40, 272);
+            this.labelMyFrofileRoleLabel.Name = "labelMyFrofileRoleLabel";
+            this.labelMyFrofileRoleLabel.Size = new System.Drawing.Size(51, 20);
+            this.labelMyFrofileRoleLabel.TabIndex = 3;
+            this.labelMyFrofileRoleLabel.Text = "Rola:";
+            // 
+            // labelMyFrofileUsernameLabel
+            // 
+            this.labelMyFrofileUsernameLabel.AutoSize = true;
+            this.labelMyFrofileUsernameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.labelMyFrofileUsernameLabel.Location = new System.Drawing.Point(40, 213);
+            this.labelMyFrofileUsernameLabel.Name = "labelMyFrofileUsernameLabel";
+            this.labelMyFrofileUsernameLabel.Size = new System.Drawing.Size(129, 20);
+            this.labelMyFrofileUsernameLabel.TabIndex = 2;
+            this.labelMyFrofileUsernameLabel.Text = "Korisničko ime:";
+            // 
+            // labelMyFrofileLastNameLabel
+            // 
+            this.labelMyFrofileLastNameLabel.AutoSize = true;
+            this.labelMyFrofileLastNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.labelMyFrofileLastNameLabel.Location = new System.Drawing.Point(40, 157);
+            this.labelMyFrofileLastNameLabel.Name = "labelMyFrofileLastNameLabel";
+            this.labelMyFrofileLastNameLabel.Size = new System.Drawing.Size(78, 20);
+            this.labelMyFrofileLastNameLabel.TabIndex = 1;
+            this.labelMyFrofileLastNameLabel.Text = "Prezime:";
+            // 
+            // labelMyFrofileNameLabel
+            // 
+            this.labelMyFrofileNameLabel.AutoSize = true;
+            this.labelMyFrofileNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.labelMyFrofileNameLabel.Location = new System.Drawing.Point(40, 98);
+            this.labelMyFrofileNameLabel.Name = "labelMyFrofileNameLabel";
+            this.labelMyFrofileNameLabel.Size = new System.Drawing.Size(44, 20);
+            this.labelMyFrofileNameLabel.TabIndex = 0;
+            this.labelMyFrofileNameLabel.Text = "Ime:";
+            // 
+            // buttonLogout
+            // 
+            this.buttonLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.buttonLogout.Location = new System.Drawing.Point(44, 36);
+            this.buttonLogout.Name = "buttonLogout";
+            this.buttonLogout.Size = new System.Drawing.Size(125, 30);
+            this.buttonLogout.TabIndex = 10;
+            this.buttonLogout.Text = "Odjava";
+            this.buttonLogout.UseVisualStyleBackColor = true;
+            this.buttonLogout.Click += new System.EventHandler(this.buttonLogout_Click);
+            // 
+            // eventLog1
+            // 
+            this.eventLog1.SynchronizingObject = this;
+            // 
+            // MainForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Window;
+            this.ClientSize = new System.Drawing.Size(880, 493);
+            this.Controls.Add(this.tabPanel);
+            this.Name = "MainForm";
+            this.Text = "Trgovina";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainForm_FormClosed);
+            this.tabPageRacun.ResumeLayout(false);
+            this.tabPageRacun.PerformLayout();
+            this.tabPanel.ResumeLayout(false);
+            this.tabPageKorisnici.ResumeLayout(false);
+            this.tabPageKorisnici.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.userList)).EndInit();
+            this.tabPageMyProfile.ResumeLayout(false);
+            this.tabPageMyProfile.PerformLayout();
+            this.tabPageRacuniPregled.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+        private System.Windows.Forms.TabPage tabPageArtikli;
+        private System.Windows.Forms.TabPage tabPageRacun;
+        private System.Windows.Forms.TabControl tabPanel;
+        private System.Windows.Forms.TabPage tabPageKorisnici;
+        private System.Windows.Forms.TabPage tabPageRacuniPregled;
+        private System.Windows.Forms.TabPage tabPageStatistika;
+        private System.Windows.Forms.DataGridView userList;
+        private System.Windows.Forms.ComboBox comboBoxUserStatus;
+        private System.Windows.Forms.ComboBox comboBoxUserRole;
+        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.Button Remove;
+        private System.Windows.Forms.Button Add;
+        private System.Windows.Forms.ListView listView2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button Dodaj2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button Trazi;
+        private System.Windows.Forms.Button buttonAddNewUser;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TabPage tabPageMyProfile;
+        private System.Windows.Forms.Label labelMyFrofileNameLabel;
+        private System.Windows.Forms.Label labelMyFrofileRoleLabel;
+        private System.Windows.Forms.Label labelMyFrofileUsernameLabel;
+        private System.Windows.Forms.Label labelMyFrofileLastNameLabel;
+        private System.Windows.Forms.Label labelMyFrofileRole;
+        private System.Windows.Forms.Label labelMyFrofileUsername;
+        private System.Windows.Forms.Label labelMyFrofileLastName;
+        private System.Windows.Forms.Label labelMyFrofileName;
+        private System.Windows.Forms.Button buttonMyProfileEdit;
+        private System.Windows.Forms.Button buttonChangePassword;
+        private System.Windows.Forms.Button buttonLogout;
+        private System.Windows.Forms.ListView listView3;
+        private System.Windows.Forms.Button kreiraj;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ListView listView4;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.ColumnHeader Artikal;
+        private System.Windows.Forms.ColumnHeader Porez;
+        private System.Windows.Forms.ColumnHeader Popust;
+        private System.Windows.Forms.ColumnHeader Cijena;
+        private System.Windows.Forms.ColumnHeader Količina;
+        private System.Windows.Forms.ColumnHeader Ukupno;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Button PrikaziIzabranRacun;
+        private System.Windows.Forms.ListView listView5;
+        private System.Windows.Forms.ColumnHeader Vrijeme;
+        private System.Windows.Forms.ColumnHeader ID;
+        private System.Windows.Forms.ColumnHeader Korisnik;
+        private System.Windows.Forms.Button Odaberi;
+        private System.Diagnostics.EventLog eventLog1;
+    }
+}
+
